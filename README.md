@@ -16,7 +16,6 @@
    
   Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
 
-<hr>
 
 # Installation
     
@@ -24,7 +23,7 @@
     
    ### Before you Begin
    
-   > To check if virtualization is supported on macOS, run the following command on your terminal.
+   To check if virtualization is supported on macOS, run the following command on your terminal.
    
    > **sysctl -a | grep -E --color 'machdep.cpu.features|VMX'** 
 
@@ -54,14 +53,12 @@ If you see **VMX** in the output (should be colored), the VT-x feature is enable
 
    You can also install it on macOS by downloading a stand-alone binary:
 
-   > **curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64 \
+  > **curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64 \
   && chmod +x minikube**
   
    Here’s an easy way to add the Minikube executable to your path:
 
    > **sudo mv minikube /usr/local/bin**
-   
-<hr>
    
 # Linux
   
@@ -105,8 +102,6 @@ Here’s an easy way to add the Minikube executable to your path:
 > **sudo mkdir -p /usr/local/bin/**
 
 > **sudo install minikube /usr/local/bin/**
-
-<hr>
 
 # Windows
 
