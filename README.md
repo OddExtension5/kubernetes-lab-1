@@ -21,6 +21,7 @@
    #### macOS
      
    > To check if virtualization is supported on macOS, run the following command on your terminal.
+   
    > **sysctl -a | grep -E --color 'machdep.cpu.features|VMX** 
 
 If you see **VMX** in the output (should be colored), the VT-x feature is enabled in your machine.
@@ -31,7 +32,7 @@ If you see **VMX** in the output (should be colored), the VT-x feature is enable
 
    Make sure you have kubectl installed. You can install kubectl according to the instructions in Install and Set Up kubectl.
 
-   #### Install a Hypervisor
+   ##### Install a Hypervisor
 
    If you do not already have a hypervisor installed, install one of these now:
 
