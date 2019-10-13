@@ -77,7 +77,7 @@ Make sure you have kubectl installed. You can install kubectl according to the i
 
    • [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-> **Note**: Minikube also supports a --vm-driver=none option that runs the Kubernetes components on the host and not in a VM. Using this  > driver requires Docker and a Linux environment but not a hypervisor. It is recommended to use the apt installation of docker from      > (Docker, when using the none driver. The snap installation of docker does not work with minikube.
+> **Note**: Minikube also supports a --vm-driver=none option that runs the Kubernetes components on the host and not in a VM. Using this  driver requires Docker and a Linux environment but not a hypervisor. It is recommended to use the apt installation of docker from    (Docker, when using the none driver. The snap installation of docker does not work with minikube.
 
 ##### Install Minikube using a package
 
