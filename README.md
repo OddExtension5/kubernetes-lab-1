@@ -34,7 +34,7 @@ If you see **VMX** in the output (should be colored), the VT-x feature is enable
    
    #### Install kubectl
 
-   Make sure you have kubectl installed. You can install kubectl according to the instructions in Install and Set Up kubectl.
+   Make sure you have kubectl installed. You can install kubectl according to the instructions in [Install and Set Up kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-windows).
 
    #### Install a Hypervisor
 
@@ -75,7 +75,7 @@ If you see **VMX** in the output (should be colored), the VT-x feature is enable
   
  ### Install kubectl
 
-Make sure you have kubectl installed. You can install kubectl according to the instructions in Install and Set Up kubectl.
+Make sure you have kubectl installed. You can install kubectl according to the instructions in [Install and Set Up kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-windows).
 
 ### Install a Hypervisor
 
@@ -134,7 +134,7 @@ If you see the following output, your system already has a Hypervisor installed 
 
 ### Install kubectl
 
-Make sure you have kubectl installed. You can install kubectl according to the instructions in Install and Set Up kubectl.
+Make sure you have kubectl installed. You can install kubectl according to the instructions in [Install and Set Up kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-windows).
 
 ### Install a Hypervisor
 
