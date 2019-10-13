@@ -22,7 +22,7 @@
      
    > To check if virtualization is supported on macOS, run the following command on your terminal.
    
-   > **sysctl -a | grep -E --color 'machdep.cpu.features|VMX** 
+   > **sysctl -a | grep -E --color 'machdep.cpu.features|VMX'** 
 
 If you see **VMX** in the output (should be colored), the VT-x feature is enabled in your machine.
 
@@ -56,3 +56,44 @@ If you see **VMX** in the output (should be colored), the VT-x feature is enable
    Here’s an easy way to add the Minikube executable to your path:
 
    > **sudo mv minikube /usr/local/bin**
+   
+<hr>
+   
+  #### Linux
+  
+  To check if virtualization is supported on Linux, run the following command and verify that the output is non-empty:
+
+  > **grep -E --color 'vmx|svm' /proc/cpuinfo
+  
+ ##### Install kubectl
+
+Make sure you have kubectl installed. You can install kubectl according to the instructions in Install and Set Up kubectl.
+
+##### Install a Hypervisor
+
+  If you do not already have a hypervisor installed, install one of these now:
+
+   • [KVM](https://www.linux-kvm.org/page/Main_Page), which also uses QEMU
+
+   • [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+> **Note**: Minikube also supports a --vm-driver=none option that runs the Kubernetes components on the host and not in a VM. Using this  > driver requires Docker and a Linux environment but not a hypervisor. It is recommended to use the apt installation of docker from      > (Docker, when using the none driver. The snap installation of docker does not work with minikube.
+
+##### Install Minikube using a package
+
+There are experimental packages for Minikube available; you can find Linux (AMD64) packages from Minikube’s releases page on GitHub.
+
+Use your Linux’s distribution’s package tool to install a suitable package.
+
+##### Install Minikube via direct download
+
+If you’re not installing via a package, you can download a stand-alone binary and use that.
+
+> **curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
+  && chmod +x minikube**
+  
+Here’s an easy way to add the Minikube executable to your path:
+
+> **sudo mkdir -p /usr/local/bin/**
+
+> **sudo install minikube /usr/local/bin/**
