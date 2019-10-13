@@ -118,9 +118,12 @@ To check if virtualization is supported on Windows 8 and above, run the followin
 
 If you see the following output, virtualization is supported on Windows.
 
-> Hyper-V Requirements:     VM Monitor Mode Extensions: Yes
+> Hyper-V Requirements:   VM Monitor Mode Extensions: Yes
+                          <br>
                           Virtualization Enabled In Firmware: Yes
+                          <br>
                           Second Level Address Translation: Yes
+                          <br>
                           Data Execution Prevention Available: Yes
                           
 If you see the following output, your system already has a Hypervisor installed and you can skip the next step.
