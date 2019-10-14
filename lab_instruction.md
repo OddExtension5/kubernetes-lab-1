@@ -14,7 +14,7 @@
    location on you computer where you want the code to land and clone the repo from github by using the 
    command.
    
-      > git clone "https://github.com/OddExtension5/kubernetes-lab-1.git"
+   > **git clone "https://github.com/OddExtension5/kubernetes-lab-1.git"**
      
    Navigate to the Kubernetes directory and take a look at the  [JavaScript code](https://github.com/OddExtension5/kubernetes-lab-1/blob/master/K8sfile.js).
    
@@ -49,7 +49,7 @@
    
    We need to make sure that docker uses the internal registry on minikubes VM by this command:
    
-   > **eval $(minikube docker-env)
+   > **eval $(minikube docker-env)**
    
    otherswise docker will use the local registry on your machine which is not accessible from the VM
     or minikube is running.
@@ -66,7 +66,9 @@
    #### Let's Recap what we have done till now:
    
    You've installed the requisite software.
+   
    You've tested and containerized the application.
+   
    You've started your local kubernetes cluster minikube.  
    
    
@@ -102,7 +104,7 @@
    rest interface the script is called **[test-K8sfile.sh](https://github.com/OddExtension5/kubernetes-lab-1/blob/master/test-K8sfile.sh)**
     and takes the port as as an argument. Here is the command:
     
-    > **./test-K8file.sh 8080**
+  > **./test-K8file.sh 8080**
     
     
    Now we have minikube up and running let's see how we can manage it.
