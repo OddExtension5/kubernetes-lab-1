@@ -29,7 +29,7 @@
    
    **Now we have the application it's time to containerized it.**
    
-   ------------------------------------------- ***CONTAINERIZED OUR APPLICATION*** ---------------------------------------------------
+   ------------------------------------------- ***CONTAINERIZED OUR APPLICATION*** -------------------------------------------------
    
    Here , we'll use **Docker** to containerized our application.
    
