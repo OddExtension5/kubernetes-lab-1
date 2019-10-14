@@ -11,9 +11,11 @@
    + [Set Up kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
    + [Minikube (sort of Kubernetes)](https://kubernetes.io/docs/tasks/tools/install-minikube/)
    + [node.js](https://nodejs.org/en/)
-  
- > Open [lab_instruction.md](https://github.com/OddExtension5/kubernetes-lab-1/blob/master/lab_instruction.md) to follow with the practical and installation details are given below.
-   
+ 
+ 
+ > **Note** : Open [lab_instruction.md](https://github.com/OddExtension5/kubernetes-lab-1/blob/master/lab_instruction.md) to follow with the practical and for installation details instruction are given below.
+ 
+ 
  ## What is Minikube?
    
   Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
