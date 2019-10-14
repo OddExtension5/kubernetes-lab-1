@@ -4,17 +4,17 @@
  
  So, let's get started
  
- **Step 1**: Deploying containerized application
+ # Deploying containerized application
  
    Well, the first step for deploying containerized application is the application.
    
    I put together some demo JavaScript Code that you'll run is a node.js application.
    
    Open a terminal window ( in Linux or macOS) or command prompt ( in Windows ) navigate to a 
-   location on you computer where you want the code to land and clone the from github by using the 
+   location on you computer where you want the code to land and clone the repo from github by using the 
    command.
    
-      > **git clone "https://github.com/OddExtension5/kubernetes-lab-1.git"**
+      > git clone "https://github.com/OddExtension5/kubernetes-lab-1.git"
      
    Navigate to the Kubernetes directory and take a look at the  [JavaScript code](https://github.com/OddExtension5/kubernetes-lab-1/blob/master/K8sfile.js).
    
