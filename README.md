@@ -13,7 +13,7 @@
    + [node.js](https://nodejs.org/en/)
  
  
- > **Note** : Open [lab_instruction.md](https://github.com/OddExtension5/kubernetes-lab-1/blob/master/lab_instruction.md) to follow with the practical and for installation details instruction are given below.
+ > **Note** : Open [lab_instruction.md](https://github.com/OddExtension5/kubernetes-lab-1/blob/master/lab_instruction.md) to follow with the practical and for installation details instructions are given below.
  
  
  ## What is Minikube?
